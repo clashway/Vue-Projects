@@ -2,6 +2,8 @@
   <div id="single-blog">
     <h1>{{ blog.title }}</h1>
     <article>{{ blog.content }}</article>
+      <p>Tags: <span v-for="tag in blog.categories"> {{ tag }} </span></p>
+      <p>Written by: {{ blog.author }}</p>
   </div>
 </template>
 
