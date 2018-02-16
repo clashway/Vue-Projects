@@ -18,7 +18,7 @@
       </div>
       <label>Author:</label>
       <select v-model="blog.author">
-        <option v-for="author in authors">{{ author }}</option>
+          <option v-for="author in authors">{{ author }}</option>
       </select>
       <button v-on:click.prevent="post">Save</button>
     </form>
@@ -34,7 +34,7 @@
       <ul>
         <li v-for="category in blog.categories">{{ category }}</li>
       </ul>
-      <p>Blog Author: {{ blog.author }}</p>
+        Blog Author: <template v-if="blog.author != '-- Select Author --'">{{ blog.author }}</template>
 
     </div>
   </div>
@@ -48,9 +48,9 @@ export default {
         title: '',
         content: '',
         categories: [],
-        author: ''
+        author: '-- Select Author --'
       },
-      authors: ['Bob', 'John', 'Bill'],
+      authors: ['-- Select Author --', 'Bob', 'John', 'Bill'],
       submitted: false
     }
   },
