@@ -51,7 +51,7 @@ export default {
         author: ''
       },
       authors: ['Bob', 'John', 'Bill'],
-      submitted: false,
+      submitted: false
     }
   },
   methods: {

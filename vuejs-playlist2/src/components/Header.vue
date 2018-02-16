@@ -1,8 +1,8 @@
 <template>
   <nav>
     <ul>
-      <li><router-link to="/" exact>Blog</router-link></li>
-      <li><router-link to="/add" exact>Add New Blog</router-link></li>
+      <li><router-link to="/" exact>{{ blog_link_title }} </router-link></li>
+      <li><router-link to="/add" exact>{{ addblog_link_title }} </router-link></li>
     </ul>
   </nav>
 </template>
@@ -12,7 +12,8 @@
 export default {
   data () {
     return {
-
+        blog_link_title: 'Homepage',
+        addblog_link_title: 'Write New Entry'
     }
   }
 }
