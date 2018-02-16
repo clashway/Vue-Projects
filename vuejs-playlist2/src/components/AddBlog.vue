@@ -7,14 +7,14 @@
       <label>Blog Content:</label>
       <textarea v-model.lazy="blog.content"></textarea>
       <div id="checkboxes">
-        <label>Category 1</label>
-        <input type="checkbox" value="cat1" v-model="blog.categories">
-        <label>Category 2</label>
-        <input type="checkbox" value="cat2" v-model="blog.categories">
-        <label>Category 3</label>
-        <input type="checkbox" value="cat3" v-model="blog.categories">
-        <label>Category 4</label>
-        <input type="checkbox" value="cat4" v-model="blog.categories">
+        <label>Police & Fire</label>
+        <input type="checkbox" value="police-fire" v-model="blog.categories">
+        <label>Pets</label>
+        <input type="checkbox" value="pets" v-model="blog.categories">
+        <label>Fishing</label>
+        <input type="checkbox" value="fishing" v-model="blog.categories">
+        <label>Golfing</label>
+        <input type="checkbox" value="golfing" v-model="blog.categories">
       </div>
       <label>Author:</label>
       <select v-model="blog.author">
