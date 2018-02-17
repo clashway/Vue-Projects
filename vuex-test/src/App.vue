@@ -1,8 +1,7 @@
 <template>
     <div>
-        <h1>{{ title }}</h1>
-        <product-list-one v-bind:products="products"></product-list-one>
-        <product-list-two v-bind:products="products"></product-list-two>
+        <product-list-one></product-list-one>
+        <product-list-two></product-list-two>
     </div>
 </template>
 
@@ -16,13 +15,7 @@
         },
         data () {
             return {
-                title: 'Here is the title',
-                products: [
-                    {name: 'Banana', price: 20},
-                    {name: 'Shell', price: 40},
-                    {name: 'Green', price: 60},
-                    {name: 'Orange', price: 30}
-                ]
+
             }
         }
     }
