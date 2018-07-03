@@ -53,7 +53,7 @@ h1.book-title {
   font-size: 1rem;
   font-weight: 300;
 }
-.book-image gimg {
+.book-image img {
   width: 280px;
   padding-right: 50px;
 }
