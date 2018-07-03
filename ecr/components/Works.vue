@@ -20,7 +20,7 @@ export default {
     return {
       books: [
         {
-          title: 'Paradiso',
+          title: 'Yeehaw',
           description: '<p><b style="font-weight: 400">David Sedaris returns with his most deeply personal and darkly hilarious book.</b></p><p>If youve ever laughed your way through David Sedaris\'s cheerfully misanthropic stories, you might think you know what you\'re getting with <i>Calypso.</i> You\'d be wrong.</p><p>When he buys a beach house on the Carolina coast, Sedaris envisions long, relaxing vacations spent playing board games and lounging in the sun with those he loves most. And life at the Sea Section, as he names the vacation home, is exactly as idyllic as he imagined, except for one tiny, vexing realization: it\'s impossible to take a vacation from yourself.</p>',
           image: ''
         }
@@ -53,7 +53,7 @@ h1.book-title {
   font-size: 1rem;
   font-weight: 300;
 }
-.book-image img {
+.book-image gimg {
   width: 280px;
   padding-right: 50px;
 }
