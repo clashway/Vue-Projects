@@ -88,14 +88,16 @@ nav a.exact-active {
   text-decoration: underline;
 }
 .navigation {
+  width: 100%;
   height: 40px;
   align-items: center;
   display: flex;
   justify-content: center;
   border-top: 1px solid #bdbdbd;
   border-bottom: 1px solid #bdbdbd;
-  margin-left: -10px;
-  margin-right: -10px;
+}
+nav ul {
+  padding-left: 0;
 }
 .navigation li {
   padding: 0 40px 0 40px;

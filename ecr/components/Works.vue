@@ -62,17 +62,21 @@ h1.book-title {
   margin-top: -15px;
 }
 @media screen and ( max-width: 600px ) {
+  .book-section {
+    display: block;
+    padding: 25px 15px 15px 15px;
+  }
   .book-image {
     text-align: center;
   }
   .book-image img {
     padding-right: 0;
   }
-  .book-section {
-    display: block;
-  }
   .book-column-two {
     margin-top: 10px;
+  }
+  .book-title {
+    text-align: center;
   }
 }
 </style>
