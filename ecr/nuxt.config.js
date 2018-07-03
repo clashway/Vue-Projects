@@ -7,7 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'EC Regalia Personal Website' }
     ],
     script: [
       { src: 'https://www.gstatic.com/firebasejs/5.2.0/firebase.js'},
