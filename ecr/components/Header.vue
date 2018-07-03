@@ -61,7 +61,7 @@ h2.branding {
   justify-content: center;
   align-items: center;
   margin-top: 5px;
-  right: 10%;
+  right: 7%;
   height: 34px;
   width: 80px;
 }
@@ -108,7 +108,7 @@ nav a.exact-active {
 .navigation a:hover {
   text-decoration: underline;
 }
-@media screen and ( max-width: 415px ) {
+@media screen and ( max-width: 600px ) {
   .social-links {
     display: none;
   }

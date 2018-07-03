@@ -54,7 +54,6 @@ h1.book-title {
   font-weight: 300;
 }
 .book-image img {
-  display: block;
   width: 280px;
   padding-right: 50px;
 }
@@ -62,7 +61,10 @@ h1.book-title {
   flex-direction: column;
   margin-top: -15px;
 }
-@media screen and ( max-width: 415px ) {
+@media screen and ( max-width: 600px ) {
+  .book-image {
+    text-align: center;
+  }
   .book-image img {
     padding-right: 0;
   }
