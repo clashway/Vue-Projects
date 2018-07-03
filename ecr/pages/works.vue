@@ -1,18 +1,18 @@
 <template>
   <div id="app-index">
     <app-header />
-    <app-bio />
+    <app-works />
   </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
-import Bio from '~/components/Bio.vue'
+import Works from '~/components/Works.vue'
 
 export default {
   components: {
     'app-header': Header,
-    'app-bio': Bio
+    'app-works': Works
   }
 }
 </script>

@@ -7,7 +7,11 @@
         </div>
         <div class="book-column-two">
           <h1 class="book-title">{{ book.title }}</h1>
-          <div class="book-description" v-html="book.description"></div>
+          <div class="book-description">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+          </div>
         </div>
       </article>
     </div>
@@ -20,9 +24,7 @@ export default {
     return {
       books: [
         {
-          title: 'Yeehaw',
-          description: '<p><b style="font-weight: 400">David Sedaris returns with his most deeply personal and darkly hilarious book.</b></p><p>If youve ever laughed your way through David Sedaris\'s cheerfully misanthropic stories, you might think you know what you\'re getting with <i>Calypso.</i> You\'d be wrong.</p><p>When he buys a beach house on the Carolina coast, Sedaris envisions long, relaxing vacations spent playing board games and lounging in the sun with those he loves most. And life at the Sea Section, as he names the vacation home, is exactly as idyllic as he imagined, except for one tiny, vexing realization: it\'s impossible to take a vacation from yourself.</p>',
-          image: ''
+          title: 'TK',
         }
       ]
     }

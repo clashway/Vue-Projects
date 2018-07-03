@@ -26,8 +26,8 @@ export default {
     return {
       branding: 'EC Regalia',
       navLinks: [
-        {title:'WORKS', link: '/'},
         {title:'BIO', link: 'bio'},
+        {title:'WORKS', link: 'works'},
         {title:'CONTACT', link: 'contact'}
       ],
       fbLink: 'https://facebook.com/personal-page',
